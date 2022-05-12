@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+  }
+  
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+  }
+  
+  .todo-list {
+    background-color: #2a2a2a;
+    font-family:monospace;
+    padding: 1rem;
+    min-width: 400px;
+    min-height: 300px;
+    max-height: 500px;
+    overflow: hidden auto;
+  }
+  
+  .title {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    font-family:monospace;
+    color: #957bd2;
+    
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  .form-input, .form-button {
+    border-radius: 0;
+    padding: 0.75rem;
+    font-size: 0.75rem;
+  }
+  .form-input {
+    outline: none;
+    background-color:#957bd2;
+    border-color: rgba(255, 255, 255, 0.1);
+    width: 280px;
+  }
+  .form-button {
+    border: 1px;
+    background: #957bd2;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 0.25rem;
+  }
+  .form-button:hover {
+    color: #232322;
+    background: rgba(246, 241, 209, 0.1);
+  }
+  
+  .list {
+    padding: 0;
+    list-style: none;
+    width: 100px;
+    height: 80px;
+    border-radius: 70%;
+  }
+  
+  .task {
+    background-color: rgba(105, 59, 171, 0.188);
+    color: #090909;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 1rem 3rem;
+    width: 322px;
+    height:30px ;
+    border-radius: 5px;
+    
+  }
+  
+  .check-button, .delete-button {
+    background-color:#957bd2;
+    border: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .task.done .check-button {
+    background-color: #e1e9f0;
+    color: #000000;
+  }
+  
+  .check-icon {
+    display: block;
+    padding: 1px;
+    width: 1px;
+    height: 1px;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  
+  .task.done .check-icon {
+    background-color: #0B2027;
+  }
+  
+  .content {
+    margin: 0;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 100px;
+    overflow-wrap: break-word;
+    overflow: hidden auto;
+    padding: 10px;
+    margin-right: 20px;
+    box-sizing: border-box;
+  }
+  
+  .task.done .content {
+    text-decoration: line-through;
+  }
+  
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
