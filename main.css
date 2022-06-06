@@ -17,10 +17,10 @@ body {
   text-align: center;
   padding: 4px;
   background-color: aliceblue;
-  border-radius: 5px
+  border-radius: 5 px
   }
   .todo-list {
-    background-color: #2a2a2a;
+    background-color: #ffffff;
     font-family:monospace;
     padding: 1rem;
     min-width: 400px;
@@ -51,6 +51,7 @@ body {
     background-color:#957bd2;
     border-color: rgba(255, 255, 255, 0.1);
     width: 280px;
+    color: #f1f1f1;
   }
   .form-button {
     border: 1px;
@@ -60,7 +61,7 @@ body {
     margin-left: 0.25rem;
   }
   .form-button:hover {
-    color: #232322;
+    color: #f6f6f6;
     background: rgba(246, 241, 209, 0.1);
   }
   
@@ -73,8 +74,8 @@ body {
   }
   
   .task {
-    background-color: rgba(167, 109, 248, 0.223);
-    color: #090909;
+    background-color: rgba(182, 134, 249, 0.571);
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
