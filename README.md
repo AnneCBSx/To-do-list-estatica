@@ -1,1 +1,1 @@
-# To do list estático baseado no código do https://codepen.io/rahgomes 
+# To do list estática baseado no código do https://codepen.io/rahgomes 
